@@ -3,6 +3,7 @@ MODULE_NAME = template
 .PHONY: init
 init:
 	@pipenv install --three -r requirements.txt
+	@pipenv shell
 	
 .PHONY: start
 start:
